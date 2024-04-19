@@ -1,38 +1,70 @@
-/* Carusel section */
+/* Start Carusel section */
+.carousel-indicators button{
+    height: 13px !important;
+    width: 13px !important;
+    border-radius: 100%;
+    background-color:#ffffff !important ;
+
+}
+.carousel-indicators .active{
+    background-color: #1672d4 !important;
+}
 .first-head{
 font-size: 500%;
+font-family: "Kaisei Decol", serif;
 }
-@media screen and (min-width: 375px) and (max-width: 667px){
+@media screen and (min-width: 200px) and (max-width: 576px){
     .first-head{
-        font-size: 150%;
+        font-size: 180%;
         } 
 }
-@media screen and (min-width: 668px) and (max-width: 997px){
+@media screen and (min-width: 577px) and (max-width: 991px){
     .first-head{
-        font-size:350%;
+        font-size:380%;
         } 
 }
 .first-para{
     margin-bottom: -12px;
+    font-family:Roboto-Condensed sans-serif;
 }
 .first-btn{
     background-color: white;
     margin-bottom: 180px;
     }
 .first-btn:hover{
-background-color: #0B60B0;
+background-color: #378CE7;
 color: white;
 }
-@media screen and (min-width: 375px) and (max-width: 667px){
+@media screen and (min-width:200px) and (max-width: 576px){
     .first-btn{
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     }
 }
-@media screen and (min-width: 668px) and (max-width: 997px){
+@media screen and (min-width: 577px) and (max-width: 991px){
     .first-btn{
     background-color: white;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
     }
 }
 /* End carusel section */
+
+/* Start Get To know section */
+.get-To{
+background-color: #f2f6f9;
+}
+.get-head{
+    font-family: "Kaisei Decol", serif;
+}
+.get-firstpara{
+    font-family:"Roboto-Condensed", sans-serif; 
+}
+.btn-view{
+    background-color: black;
+    color: white;
+
+}
+.btn-view:hover{
+    background-color: #378CE7;
+    color: white;
+}
