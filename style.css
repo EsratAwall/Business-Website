@@ -1,0 +1,38 @@
+/* Carusel section */
+.first-head{
+font-size: 500%;
+}
+@media screen and (min-width: 375px) and (max-width: 667px){
+    .first-head{
+        font-size: 150%;
+        } 
+}
+@media screen and (min-width: 668px) and (max-width: 997px){
+    .first-head{
+        font-size:350%;
+        } 
+}
+.first-para{
+    margin-bottom: -12px;
+}
+.first-btn{
+    background-color: white;
+    margin-bottom: 180px;
+    }
+.first-btn:hover{
+background-color: #0B60B0;
+color: white;
+}
+@media screen and (min-width: 375px) and (max-width: 667px){
+    .first-btn{
+    background-color: white;
+    margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 668px) and (max-width: 997px){
+    .first-btn{
+    background-color: white;
+    margin-bottom: 90px;
+    }
+}
+/* End carusel section */
