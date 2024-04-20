@@ -58,6 +58,7 @@ background-color: #f2f6f9;
 }
 .get-firstpara{
     font-family:"Roboto-Condensed", sans-serif; 
+    color: rgb(76, 75, 75);
 }
 .btn-view{
     background-color: black;
@@ -68,3 +69,39 @@ background-color: #f2f6f9;
     background-color: #378CE7;
     color: white;
 }
+
+/* Start insurance coverage section*/
+.insu-cov{
+    background-image:url(./image/insurance-coverage-img.jpg);
+    background-size: cover;
+    height:700px;
+    padding-top: 20vw;
+    padding-left: 31vw;
+}
+@media screen and (min-width:200px) and (max-width: 576px){
+    .insu-cov{
+    height: 500px;
+    padding-top:62vw ;
+    padding-left: 24vw;
+    width: 90%;
+    margin-left: 4vw;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px){
+    .insu-cov{
+        height: 600px;
+        padding-top: 50vw;
+    }
+}
+.insu-year{
+    background-color: #378CE7;
+    width: 190px;
+   
+}
+.seco-servi{
+    background-color: #378CE7;
+    border-radius: 50%;
+    padding: 18px;
+    color: white;
+}
+/* End insurance coverage section*/
