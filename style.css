@@ -55,6 +55,7 @@ background-color: #f2f6f9;
 }
 .get-head{
     font-family: "Kaisei Decol", serif;
+    color: black;
 }
 .get-firstpara{
     font-family:"Roboto-Condensed", sans-serif; 
@@ -105,3 +106,6 @@ background-color: #f2f6f9;
     color: white;
 }
 /* End insurance coverage section*/
+.row-sec{
+    background-color: #f2f6f9
+}
