@@ -138,22 +138,40 @@ background-color: #f2f6f9;
     background-image: url(./image/business-life.png);
     background-repeat: no-repeat;
     height:700px;
-    margin-left: 100px;
+    margin-left: 98px;
     width: 100%;
 }
 @media screen and (min-width: 200px) and (max-width: 576px){
     .protect-img{
         margin-left: 0;
         margin-top: 60px;
-        display: flex; 
-        justify-content: center;
-        width:100% ;
+       
     }
      } 
-    @media screen and (min-width: 577px) and (max-width: 991px){
+@media screen and (min-width: 577px) and (max-width: 991px){
     .protect-img{
-        margin-left: 130px;
+        margin-left: 100px;
         
     }
      } 
-    
+    /* Clients say section */
+@media screen and (min-width: 200px) and (max-width: 576px){
+        .client-img{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-left: 120px; 
+           padding: 0px 0px;
+
+        }
+         } 
+ @media screen and (min-width: 577px) and (max-width: 991px){
+            .client-img{
+           display: flex;
+           justify-content: center;
+          align-items: center;
+          margin-left: 120px; 
+          padding: 0px 0px;
+        }
+    }
+   
