@@ -25,7 +25,7 @@ font-family: "Kaisei Decol", serif;
 }
 .first-para{
     margin-bottom: -12px;
-    font-family:Roboto-Condensed sans-serif;
+    font-family:"Roboto-Condensed", sans-serif;
 }
 .first-btn{
     background-color: white;
@@ -106,6 +106,54 @@ background-color: #f2f6f9;
     color: white;
 }
 /* End insurance coverage section*/
-.row-sec{
-    background-color: #f2f6f9
+
+/* Lets protect section */
+.lets-head{
+  font-size: 350%;
+  font-family: "Kaisei Decol", serif;
 }
+@media screen and (min-width: 200px) and (max-width: 576px){
+.lets-head{
+ font-size: 170%;
+ } 
+}
+@media screen and (min-width: 577px) and (max-width: 991px){
+.lets-head{
+ font-size:370%;
+ } 
+}
+.check-right{
+    font-size:19px !important;
+
+}
+.btn-lets{
+    background-color:#378CE7;
+    color: white;
+}
+.btn-lets:hover{
+    background-color: black;
+    color: white;
+}
+.protect-img{
+    background-image: url(./image/business-life.png);
+    background-repeat: no-repeat;
+    height:700px;
+    margin-left: 100px;
+    width: 100%;
+}
+@media screen and (min-width: 200px) and (max-width: 576px){
+    .protect-img{
+        margin-left: 0;
+        margin-top: 60px;
+        display: flex; 
+        justify-content: center;
+        width:100% ;
+    }
+     } 
+    @media screen and (min-width: 577px) and (max-width: 991px){
+    .protect-img{
+        margin-left: 130px;
+        
+    }
+     } 
+    
