@@ -174,4 +174,16 @@ background-color: #f2f6f9;
           padding: 0px 0px;
         }
     }
-   
+   /* What going blog section */
+   .linktag{
+    text-decoration: none;
+   }
+   .linktag:hover{
+    text-decoration:underline;
+    padding-bottom: 2px;
+    transition: .7s;
+   }
+   .link-para{
+    color:#378CE7 ;
+    font-family:"Roboto-Condensed", sans-serif;
+   }
