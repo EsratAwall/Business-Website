@@ -53,6 +53,19 @@ color: white;
     margin-bottom: 80px;
     }
 }
+.caruimage{
+    height:860px;
+}
+@media screen and (min-width:200px) and (max-width: 576px){
+    .caruimage{
+        height:300px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px){
+    .caruimage{
+        height:500px;
+    }
+}
 /* End carusel section */
 
 /* Start Get To know section */
