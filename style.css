@@ -1,3 +1,9 @@
+/* navbar */
+.offhead{
+    background-color: #378CE7;
+    color: white;  
+}
+
 /* Start Carusel section */
 .carousel-indicators button{
     height: 13px !important;
@@ -230,13 +236,7 @@ background-color: #f2f6f9;
 .get-foo{                                                                                                                                                                                               
     background-color: #f2f6f9;
 }
-.inpu-sec{
-   
-}
 /* footer section */
-.foot-div{
- 
-}
 .last-icon{
     color: white;
     padding: 25px;
