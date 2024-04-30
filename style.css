@@ -153,6 +153,23 @@ background-color: #f2f6f9;
     background-color: black;
     color: white;
 }
+.count-sect{
+    background-color:#378CE7;
+}
+.boder-clas{
+    border-right: 1px solid white;
+}
+@media screen and (min-width: 200px) and (max-width: 576px){
+    .boder-clas{
+        border-bottom: 1px solid white;
+        border-right: none;
+    } 
+    }
+    @media screen and (min-width: 577px) and (max-width: 991px){
+        .boder-clas{
+            border-right: 1px solid white;
+        }
+    }
 .protect-img{
     background-image: url(./image/business-life.png);
     background-repeat: no-repeat;
